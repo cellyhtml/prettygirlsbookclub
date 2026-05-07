@@ -1,0 +1,117 @@
+.forms-header {
+  margin-bottom: 4rem;
+}
+
+.forms-editorial-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+/* Envelope/Letter Section */
+.envelope-container {
+  background: #FFFCE8;
+  padding: 4rem;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border: 1px solid #E5E0CB;
+  transform: rotate(-1deg);
+}
+
+.wax-seal {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, var(--cherry-red) 40%, #8A0814 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(168, 16, 26, 0.4), inset 0 0 10px rgba(0,0,0,0.3);
+  z-index: 5;
+  transform: rotate(15deg);
+}
+
+.letter-content {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+.editorial-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.typewriter-text {
+  font-family: monospace;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.letter-signature {
+  margin-bottom: 3rem;
+}
+
+.letter-signature p:first-child {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.letter-signature .handwriting {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.letter-action {
+  border-top: 1px dashed #ccc;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.letter-action p {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Quiz Scrap */
+.quiz-scrap {
+  padding: 3rem;
+  transform: rotate(2deg);
+}
+
+.quiz-placeholder {
+  margin-top: 2rem;
+  height: 200px;
+  background: repeating-linear-gradient(180deg, transparent, transparent 39px, #ccc 39px, #ccc 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.quiz-placeholder .handwriting {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .forms-editorial-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .envelope-container {
+    padding: 2rem;
+  }
+  
+  .letter-content {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,127 @@
+.editorial-page {
+  padding: 8rem 0 5rem;
+}
+
+.about-editorial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.text-scrap {
+  background: var(--white);
+  padding: 2.5rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+  margin-bottom: 4rem;
+  border-left: 5px solid var(--soft-pink);
+  transform: rotate(-1deg);
+}
+
+.lead-text {
+  font-size: 1.3rem;
+  font-family: var(--font-title);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: var(--cherry-red);
+}
+
+.founder-scraps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.founder-scraps h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.founder-card {
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.founder-card:nth-child(2) {
+  transform: rotate(2deg);
+  margin-left: 2rem;
+}
+
+.founder-card:nth-child(3) {
+  transform: rotate(-2deg);
+}
+
+.founder-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.role {
+  font-weight: 600;
+  color: var(--cherry-red);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Moodboard Corkboard style */
+.corkboard {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.massive-polaroid {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 90%;
+  transform: rotate(3deg);
+  z-index: 2;
+}
+
+.massive-polaroid:hover {
+  transform: scale(1.02) rotate(1deg);
+}
+
+.bottom-tape {
+  top: auto;
+  bottom: -15px;
+  transform: translateX(-50%) rotate(2deg);
+}
+
+.tiny-note {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 200px;
+  padding: 1.5rem;
+  z-index: 3;
+  transform: rotate(-10deg);
+  text-align: center;
+}
+
+.tiny-note .handwriting {
+  font-size: 2rem;
+  margin-top: 10px;
+  transform: none;
+}
+
+@media (max-width: 900px) {
+  .about-editorial-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .corkboard {
+    height: 500px;
+    margin-top: 2rem;
+  }
+  
+  .massive-polaroid {
+    width: 100%;
+    right: auto;
+    left: 0;
+  }
+}

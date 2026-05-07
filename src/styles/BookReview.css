@@ -1,0 +1,183 @@
+.book-review-page {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.review-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.review-visuals {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.review-polaroid {
+  transform: rotate(-3deg);
+  width: 100%;
+}
+
+.review-meta-note {
+  padding: 2.5rem;
+  transform: rotate(2deg);
+  background-color: #fff;
+}
+
+.review-meta-note h4 {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--cherry-red);
+}
+
+.review-meta-note ul {
+  list-style: none;
+  padding: 0;
+}
+
+.review-meta-note li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: #444;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.sticker-star {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  background: #ffde59;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transform: rotate(15deg);
+}
+
+.review-content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.review-header {
+  margin-bottom: 1rem;
+}
+
+.review-text-block {
+  padding: 4rem;
+  transform: rotate(0.5deg);
+}
+
+.review-body h3 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  color: #222;
+  border-left: 4px solid var(--cherry-red);
+  padding-left: 1rem;
+}
+
+.review-body h3:first-child {
+  margin-top: 0;
+}
+
+.review-body p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.editorial-quote {
+  font-family: var(--font-handwriting);
+  font-size: 2.5rem;
+  color: var(--cherry-red);
+  text-align: center;
+  margin: 3rem 0;
+  line-height: 1.2;
+  opacity: 0.9;
+}
+
+.review-footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  border-top: 1px dashed #ccc;
+}
+
+.sign-off {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+@media (max-width: 900px) {
+  .review-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .review-visuals {
+    order: 2;
+  }
+  
+  .review-content-main {
+    order: 1;
+  }
+  
+  .review-text-block {
+    padding: 2rem 1.5rem;
+    transform: none;
+  }
+
+  .review-polaroid {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .review-meta-note {
+    max-width: 350px;
+    margin: 0 auto;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .book-review-page {
+    padding-top: 8rem;
+  }
+
+  .review-header .editorial-title {
+    font-size: 2.2rem;
+  }
+
+  .annotation {
+    font-size: 1.5rem;
+  }
+
+  .editorial-quote {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  .review-footer {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}

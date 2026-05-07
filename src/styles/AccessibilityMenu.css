@@ -1,0 +1,208 @@
+.a11y-container {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.a11y-trigger {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--dark-ink);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.a11y-trigger:hover {
+  transform: scale(1.1);
+  background: var(--cherry-red);
+}
+
+.a11y-menu {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 280px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.a11y-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.8rem;
+}
+
+.a11y-header h3 {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.a11y-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.a11y-option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.a11y-option span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.a11y-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.a11y-controls button {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.a11y-controls .value {
+  font-weight: bold;
+  color: var(--cherry-red);
+}
+
+.toggle-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background: var(--dark-ink);
+  color: white;
+  border-color: var(--dark-ink);
+}
+
+.reset-btn {
+  margin-top: 1rem;
+  background: none;
+  border: 1px dashed #ccc;
+  padding: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.reset-btn:hover {
+  background: #fff5f5;
+  color: var(--cherry-red);
+  border-color: var(--cherry-red);
+}
+
+/* High Contrast Mode Styles - Refined */
+body.high-contrast {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.high-contrast *:not(.a11y-trigger):not(.a11y-menu):not(.a11y-menu *) {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  background-image: none !important;
+}
+
+body.high-contrast a {
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+body.high-contrast button:not(.a11y-trigger) {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #000000 !important;
+}
+
+body.high-contrast .paper-note,
+body.high-contrast .post-scrap,
+body.high-contrast .book-note,
+body.high-contrast .editorial-header,
+body.high-contrast .editorial-page {
+  background: #ffffff !important;
+  border: 2px solid #000000 !important;
+}
+
+body.high-contrast .cherry-accent,
+body.high-contrast .cherry-text,
+body.high-contrast .handwriting {
+  color: #000000 !important;
+  font-family: sans-serif !important;
+  font-weight: bold !important;
+}
+
+body.high-contrast img {
+  filter: grayscale(100%) contrast(120%);
+}
+
+
+@media (max-width: 600px) {
+  .a11y-container {
+    left: 10px;
+    bottom: 10px;
+  }
+  
+  .a11y-menu {
+    width: calc(100vw - 20px);
+    left: 0;
+  }
+}
