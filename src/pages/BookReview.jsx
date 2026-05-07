@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Heart } from 'lucide-react';
+import { ArrowLeft, Heart } from 'lucide-react';
 import '../styles/BookReview.css';
 
 const BookReview = () => {
@@ -62,9 +62,6 @@ const BookReview = () => {
               </div>
               
               <div className="review-footer">
-                <Link to="/library" className="btn-editorial">
-                  Ver no Acervo <BookOpen size={18} />
-                </Link>
                 <div className="handwriting sign-off">Boa leitura, girls! <Heart size={16} fill="var(--cherry-red)" stroke="var(--cherry-red)" /></div>
               </div>
             </div>
