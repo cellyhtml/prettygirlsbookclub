@@ -29,7 +29,7 @@ const About = () => {
               <div className="founder-card polaroid">
                 <div className="tape"></div>
                 <h3>Leandra</h3>
-                <p className="role">CEO & Mediadora Chefe</p>
+                <p className="role">CEO & Mediadora Oficial</p>
                 <p className="bio">Sempre com um romance na bolsa. Chora com finais felizes e marca os livros com post-its coloridos.</p>
               </div>
               
