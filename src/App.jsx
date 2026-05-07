@@ -8,10 +8,12 @@ import Forms from './pages/Forms';
 import DiaryDetail from './pages/DiaryDetail';
 import BookReview from './pages/BookReview';
 import AccessibilityMenu from './components/AccessibilityMenu';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-container">
         <Header />
         <main className="main-content">

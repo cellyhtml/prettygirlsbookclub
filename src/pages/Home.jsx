@@ -19,10 +19,10 @@ const Home = () => {
         <div className="container hero-content">
           <div className="hero-text-block">
             <p className="handwriting scribble-top">Bem-vindas ao nosso clube</p>
-            <h1 className="editorial-title">
-              PRETTY<br/>
-              <span className="cherry-accent">GIRLS</span><br/>
-              READ.
+            <h1 className="hero-main-title">
+              <div className="title-line">PRETTY</div>
+              <div className="title-line girls-line">GIRLS</div>
+              <div className="title-line">READ.</div>
             </h1>
             <p className="hero-subtitle">
               Mais que um clube de leitura. Um espaço secreto onde páginas viram conexões, teorias e surtos literários.

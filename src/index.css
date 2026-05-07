@@ -8,8 +8,10 @@
 
   --font-logo: 'Dancing Script', cursive;
   --font-title: 'Playfair Display', serif;
+  --font-bold: 'Bebas Neue', sans-serif;
   --font-text: 'Inter', sans-serif;
   --font-handwriting: 'Great Vibes', cursive;
+  --font-handwriting-alt: 'Caveat', cursive;
 }
 
 * {
@@ -119,3 +121,24 @@ button {
   border-radius: 10px;
   border: 2px solid var(--bg-paper);
 }
+
+/* VLibras Responsiveness */
+[vw].enabled {
+  z-index: 9998 !important;
+}
+
+@media (max-width: 600px) {
+  [vw] [vw-access-button] {
+    width: 40px !important;
+    height: 40px !important;
+    bottom: 15px !important;
+    right: 15px !important;
+  }
+
+  /* Adjust position if it overlaps with other elements */
+  div[vw] {
+    left: auto !important;
+    right: 0 !important;
+  }
+}
+

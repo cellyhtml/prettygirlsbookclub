@@ -155,22 +155,29 @@
   }
   
   .diary-header .editorial-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    padding: 0 1rem;
   }
 
   .diary-moodboard {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem;
   }
 
   .diary-moodboard .polaroid {
-    max-width: 280px;
-    margin: 0 auto;
-    transform: rotate(0) !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    transform: rotate(0) translateY(0) !important;
+    grid-column: auto !important;
   }
 
   .diary-annotation {
     font-size: 1.5rem;
+    margin-top: 1rem;
   }
 }
 
