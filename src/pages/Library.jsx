@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
 import '../styles/Library.css';
 import imgHipotese from '../assets/books/a_hipotese_do_amor.jpg';
 import imgRazao from '../assets/books/a_razao_do_amor.jpg';
@@ -62,6 +64,7 @@ const Library = () => {
   return (
     <div className="library-page editorial-page">
       <div className="container">
+        <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
         
         <div className="library-header text-center">
           <h1 className="editorial-title">O Acervo</h1>

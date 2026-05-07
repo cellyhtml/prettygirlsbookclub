@@ -142,3 +142,24 @@ button {
   }
 }
 
+/* Global Back Link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.back-link:hover {
+  color: var(--cherry-red);
+  transform: translateX(-5px);
+}
+
+

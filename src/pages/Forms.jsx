@@ -1,10 +1,12 @@
-import { Lock } from 'lucide-react';
+import { Lock, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import '../styles/Forms.css';
 
 const Forms = () => {
   return (
     <div className="forms-page editorial-page">
       <div className="container">
+        <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
         
         <div className="forms-header text-center">
           <h1 className="editorial-title">Secret<br/>Society</h1>

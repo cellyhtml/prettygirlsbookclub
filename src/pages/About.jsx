@@ -1,10 +1,12 @@
-import { Heart } from 'lucide-react';
+import { Heart, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 const About = () => {
   return (
     <div className="about-page editorial-page">
       <div className="container">
+        <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
         
         <div className="about-editorial-grid">
           {/* Left Column: Text */}

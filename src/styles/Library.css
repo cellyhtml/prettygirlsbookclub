@@ -191,7 +191,7 @@
   }
 
   .book-note {
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto;
     transform: rotate(0) !important;
   }
@@ -200,10 +200,24 @@
     padding: 1.5rem;
     clip-path: none;
     border: 1px solid #eee;
+    margin-bottom: 3rem;
+  }
+
+  .category-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
   }
 
   .filter-btn {
     font-size: 0.9rem;
-    padding: 0.4rem 1rem;
+    padding: 0.6rem 0.5rem;
+    width: 100%;
+  }
+
+  .editorial-input {
+    font-size: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
   }
 }

@@ -6,7 +6,7 @@ const BookReview = () => {
   return (
     <div className="book-review-page editorial-page">
       <div className="container">
-        <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para o Clube</Link>
+        <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
         
         <div className="review-layout">
           {/* Left Column: Visuals */}
