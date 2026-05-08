@@ -146,6 +146,9 @@ button {
     height: 45px !important;
     bottom: 80px !important; /* Moved up to avoid overlapping with bottom bars/menu */
     right: 15px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
   }
 
   /* Ensure the plugin itself opens correctly */

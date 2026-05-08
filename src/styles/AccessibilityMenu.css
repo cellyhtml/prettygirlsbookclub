@@ -153,7 +153,7 @@ body.high-contrast {
   color: #000000 !important;
 }
 
-body.high-contrast *:not(.a11y-trigger):not(.a11y-menu):not(.a11y-menu *) {
+body.high-contrast *:not(.a11y-trigger):not(.a11y-menu):not(.a11y-menu *):not([vw]):not([vw] *) {
   background-color: #ffffff !important;
   color: #000000 !important;
   border-color: #000000 !important;
@@ -167,7 +167,7 @@ body.high-contrast a {
   font-weight: bold !important;
 }
 
-body.high-contrast button:not(.a11y-trigger) {
+body.high-contrast button:not(.a11y-trigger):not([vw] button) {
   background: #000000 !important;
   color: #ffffff !important;
   border: 2px solid #000000 !important;
