@@ -185,10 +185,26 @@
   text-align: center;
 }
 
+@media (max-width: 1440px) {
+  .annotation-center {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .annotation-center {
+    font-size: 2rem;
+  }
+  
+  .library-grid {
+    gap: 1.5rem;
+  }
+}
+
 @media (max-width: 900px) {
   .library-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 }
 

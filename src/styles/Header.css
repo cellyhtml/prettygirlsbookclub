@@ -92,9 +92,29 @@
   z-index: 1001;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
+  .nav-links {
+    gap: 2rem;
+  }
+  
+  .header-logo-main {
+    height: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
   .nav-links {
     gap: 1.5rem;
+  }
+  
+  .nav-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 1rem;
   }
 }
 

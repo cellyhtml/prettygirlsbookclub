@@ -289,6 +289,50 @@
 }
 
 /* Responsive Overhaul */
+@media (max-width: 1440px) {
+  .title-line {
+    font-size: 3.5rem;
+  }
+  
+  .girls-line {
+    font-size: 4.5rem;
+  }
+
+  .hero-content {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 4%;
+  }
+
+  .title-line {
+    font-size: 3.2rem;
+  }
+
+  .girls-line {
+    font-size: 4rem;
+  }
+
+  .hero-moodboard {
+    height: 450px;
+  }
+
+  .hero-polaroid-1 {
+    width: 280px;
+  }
+
+  .section-header-editorial h2 {
+    font-size: 3.5rem;
+  }
+  
+  .bom-editorial-layout {
+    gap: 3rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-content {
     grid-template-columns: 1fr;

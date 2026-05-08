@@ -126,6 +126,26 @@
   color: #555;
 }
 
+@media (max-width: 1440px) {
+  .review-layout {
+    gap: 3.5rem;
+  }
+  
+  .review-text-block {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .review-layout {
+    gap: 2.5rem;
+  }
+  
+  .review-text-block {
+    padding: 2.5rem;
+  }
+}
+
 @media (max-width: 900px) {
   .review-layout {
     grid-template-columns: 1fr;

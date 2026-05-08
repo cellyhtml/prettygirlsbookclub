@@ -101,6 +101,22 @@
   opacity: 0.5;
 }
 
+@media (max-width: 1440px) {
+  .forms-editorial-grid {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .envelope-container {
+    padding: 3rem;
+  }
+  
+  .letter-content {
+    padding: 2rem;
+  }
+}
+
 @media (max-width: 900px) {
   .forms-editorial-grid {
     grid-template-columns: 1fr;
