@@ -151,3 +151,15 @@
     font-size: 1.8rem;
   }
 }
+
+/* Tape on Participe Button */
+.small-tape {
+  width: 60px !important;
+  height: 20px !important;
+  top: -10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) rotate(-3deg) !important;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
