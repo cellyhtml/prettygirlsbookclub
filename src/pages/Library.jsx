@@ -17,6 +17,7 @@ import imgChamaFerro from '../assets/books/chama_de_ferro.jpg';
 import imgAssistenteVilao from '../assets/books/assistente_do_vilao.jpg';
 import imgAddieLaRue from '../assets/books/a_vida_invisivel_de_addie_larue.jpg';
 import imgRotaColisao from '../assets/books/em_rota_de_colisao.jpg';
+import imgAcademia from '../assets/books/academia_dos_casos_arquivados.jpg';
 
 // Mock data
 const books = [
@@ -46,6 +47,7 @@ const books = [
   
   // Suspense
   { id: 10, title: 'A Empregada', author: 'Freida McFadden', category: 'Suspense', date: 'Acervo', image: imgEmpregada, pdfLink: 'https://drive.google.com/file/d/1GF_tnPUbfNstf3ZborSHsYEqnCG_JnEY/view' },
+  { id: 22, title: 'Academia dos Casos Arquivados', author: 'Jennifer Lynn Barnes', category: 'Suspense', date: 'Acervo', image: imgAcademia, pdfLink: 'https://drive.google.com/drive/folders/1OrdNbDaBxB_PD5rnyd6WPp5QnofSTA9G' },
 ];
 
 const Library = () => {
