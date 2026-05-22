@@ -35,7 +35,7 @@ const books = [
   { id: 15, title: 'Minha Melhor Parte', author: 'Hannah Bonam-Young', category: 'Romance', date: 'Acervo', image: imgMinhaMelhorParte, pdfLink: 'https://drive.google.com/file/d/1wpsgVPrwyNVd4sQtrNjsLdnnICxwh70z/view?usp=drive_link' },
   { id: 16, title: 'Nem Todo Outono é Igual', author: 'Misty Wilson', category: 'Romance', date: 'Acervo', image: 'https://books.google.com/books/content?id=U_uIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api', pdfLink: 'https://drive.google.com/file/d/19vWLE4MN1vGC1q6LWIA-A7CEucBPN9Mc/view?usp=drive_link' },
   { id: 17, title: 'Sinais do Amor', author: 'Hannah Bonam-Young', category: 'Romance', date: 'Acervo', image: 'https://books.google.com/books/content?id=1W82EQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api', pdfLink: 'https://drive.google.com/file/d/1xhOS4DwkBGcCCsYJFK1GmCJVqP9c1cUl/view?usp=drive_link' },
-  
+
   // Romantasia
   { id: 7, title: 'Quarta Asa', author: 'Rebecca Yarros', category: 'Romantasia', date: 'Acervo', image: imgQuartaAsa, pdfLink: 'https://drive.google.com/file/d/1uvNnRsUSIFq9eiR-mqn1QV4553ADxzxN/view?usp=drive_link' },
   { id: 8, title: 'Assistente do Vilão', author: 'Hannah Nicole Maehrer', category: 'Romantasia', date: 'Acervo', image: imgAssistenteVilao, pdfLink: 'https://drive.google.com/file/d/1tjRsUJqt3V5JzjF7dvoEs5Sxi0_e_3zz/view?usp=drive_link' },
@@ -44,10 +44,10 @@ const books = [
   { id: 19, title: 'Chama de Ferro', author: 'Rebecca Yarros', category: 'Romantasia', date: 'Acervo', image: imgChamaFerro, pdfLink: 'https://drive.google.com/file/d/1pWiOlcyxXfFW3OHthybwiaNBnj-b2oE9/view?usp=drive_link' },
   { id: 20, title: 'Tempestade de Ônix', author: 'Rebecca Yarros', category: 'Romantasia', date: 'Acervo', image: imgTempestadeOnix, pdfLink: 'https://drive.google.com/file/d/1vl4mE3YmEOblKvkNiEirReUcrYV4WmkU/view?usp=drive_link' },
   { id: 21, title: 'Alchemised', author: 'SenLinYu', category: 'Romantasia', date: 'Acervo', image: 'https://books.google.com/books/content?id=oa9HEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api', pdfLink: 'https://drive.google.com/file/d/1g5m5A2-E54IKcap5ImQtkBgjAEU2SRMx/view?usp=drive_link' },
-  
+
   // Suspense
   { id: 10, title: 'A Empregada', author: 'Freida McFadden', category: 'Suspense', date: 'Acervo', image: imgEmpregada, pdfLink: 'https://drive.google.com/file/d/1GF_tnPUbfNstf3ZborSHsYEqnCG_JnEY/view' },
-  { id: 22, title: 'Academia dos Casos Arquivados', author: 'Jennifer Lynn Barnes', category: 'Suspense', date: 'Acervo', image: imgAcademia, pdfLink: 'https://drive.google.com/drive/folders/1OrdNbDaBxB_PD5rnyd6WPp5QnofSTA9G' },
+  { id: 22, title: 'Academia dos Casos Arquivados', author: 'Jennifer Lynn Barnes', category: 'Suspense', date: 'Acervo', image: imgAcademia, pdfLink: 'https://drive.google.com/file/d/1tkg7l66xAVpizyF7_cehSad1For208qq/view?usp=sharing' },
 ];
 
 const Library = () => {
@@ -58,8 +58,8 @@ const Library = () => {
 
   const filteredBooks = books.filter(book => {
     const matchesFilter = filter === 'Todos' || book.category === filter;
-    const matchesSearch = book.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          book.author.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch = book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      book.author.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesFilter && matchesSearch;
   });
 
@@ -67,7 +67,7 @@ const Library = () => {
     <div className="library-page editorial-page">
       <div className="container">
         <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
-        
+
         <div className="library-header text-center">
           <h1 className="editorial-title">O Acervo</h1>
           <p className="handwriting annotation-center">Nossas vidas passadas</p>
@@ -76,9 +76,9 @@ const Library = () => {
         <div className="filters-container paper-scrap">
           <div className="tape pink"></div>
           <div className="search-box">
-            <input 
-              type="text" 
-              placeholder="Pesquisar por título ou autor..." 
+            <input
+              type="text"
+              placeholder="Pesquisar por título ou autor..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="editorial-input"
@@ -86,8 +86,8 @@ const Library = () => {
           </div>
           <div className="category-filters">
             {categories.map(cat => (
-              <button 
-                key={cat} 
+              <button
+                key={cat}
                 className={`filter-btn ${filter === cat ? 'active' : ''}`}
                 onClick={() => setFilter(cat)}
               >
@@ -101,17 +101,17 @@ const Library = () => {
           {filteredBooks.map((book, index) => (
             <div key={book.id} className={`book-note polaroid ${index % 2 === 0 ? 'tilt-left' : 'tilt-right'}`}>
               <div className="tape"></div>
-              
+
               <div className="book-image-container">
                 <img src={book.image} alt={book.title} className="book-lib-img" />
                 <span className="book-category-tag">{book.category}</span>
               </div>
-              
+
               <div className="book-lib-info">
                 <h3>{book.title}</h3>
                 <p className="book-author">{book.author}</p>
                 <div className="note-divider"></div>
-                
+
                 <div className="book-footer-actions">
                   <a href={book.pdfLink} target="_blank" rel="noopener noreferrer" className="btn-pdf" aria-label={`Baixar PDF de ${book.title}`}>
                     Baixar PDF
@@ -121,7 +121,7 @@ const Library = () => {
             </div>
           ))}
         </div>
-        
+
         {filteredBooks.length === 0 && (
           <div className="empty-state paper-note">
             <div className="pin"></div>
