@@ -13,7 +13,7 @@ const BookReview = () => {
           <div className="review-visuals">
             <div className="polaroid review-polaroid">
               <div className="tape"></div>
-              <img src="/bromance-cover.png" alt="Clube do Livro dos Homens" className="polaroid-img" />
+              <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img" />
               <div className="polaroid-caption handwriting">Nossa leitura de Junho</div>
             </div>
             

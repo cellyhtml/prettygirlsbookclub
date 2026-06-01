@@ -56,6 +56,19 @@ Para ninguém se perder, preparamos um calendário especial com todas as datas i
 
 Confiram o calendário completo e a legenda abaixo para se organizarem. Mal podemos esperar para ler e surtar com vocês! Que maio seja um mês de muitas páginas viradas e corações quentinhos.`,
     images: [imgCalendarioMaio1, imgCalendarioMaio2, imgCalendarioMaio3]
+  },
+  '5': {
+    title: 'Resumo: Encontro de Maio',
+    date: '30 Mai, 2026',
+    author: 'Pretty Girls',
+    content: `O nosso encontro de maio foi simplesmente sensacional! No sábado, dia 30 de maio, nos reunimos em nossa chamada online oficial para discutir cada capítulo, mistério e sentimento de "Quem é você, Alasca?", do John Green.
+
+Passamos horas conversando sobre as dores e segredos de Culver Creek, compartilhando o que achamos das atitudes do Gordo, do Coronel e da magnética Alasca, e refletindo sobre o nosso próprio "Grande Talvez". Foi uma jornada intensa e emocionante para todas!
+
+Como de costume, fechamos o encontro online com o nosso quiz oficial de leitura, repleto de risadas, surtos coletivos e diversão. Agradecemos demais pela energia única de cada uma das girls. Vocês tornam nossas discussões online momentos inesquecíveis! 💖✨
+
+Confira o registro especial desse dia de conexão e muitas gargalhadas.`,
+    images: ['/encontro-maio.jpg']
   }
 };
 

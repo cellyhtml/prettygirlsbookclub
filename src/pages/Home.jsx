@@ -57,7 +57,7 @@ const Home = () => {
           <div className="bom-editorial-layout">
             <div className="polaroid book-polaroid">
               <div className="tape"></div>
-              <img src="/bromance-cover.png" alt="Clube do Livro dos Homens" className="polaroid-img book-img-polaroid" />
+              <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img book-img-polaroid" />
               <div className="polaroid-caption">Bromance.</div>
             </div>
             
@@ -85,18 +85,19 @@ const Home = () => {
           <h2 className="editorial-heading-center">Diário do Clube</h2>
           
           <div className="posts-grid-editorial">
+            {/* NOVO: Encontro de Maio */}
             <div className="post-scrap">
+              <div className="scrap-date handwriting">30 Mai, 2026</div>
+              <h3 className="scrap-title">Resumo: Encontro de Maio</h3>
+              <p>Surtos literários e discussões online sobre Culver Creek. Confira os sorrisos e o fechamento de "Alasca"!</p>
+              <Link to="/diary/5" className="btn-text" aria-label="Ler resumo do encontro de maio">Ler entrada ➔</Link>
+            </div>
+            
+            <div className="post-scrap pink-scrap">
               <div className="scrap-date handwriting">05 Mai, 2026</div>
               <h3 className="scrap-title">Planejamento: O que vem por aí em Maio</h3>
               <p>O Grande Talvez chegou! Confira o cronograma de leitura de "Alasca" e nosso calendário de Maio.</p>
               <Link to="/diary/4" className="btn-text">Ler entrada ➔</Link>
-            </div>
-            
-            <div className="post-scrap pink-scrap">
-              <div className="scrap-date handwriting">25 Abr, 2026</div>
-              <h3 className="scrap-title">Como organizar sua TBR</h3>
-              <p>Dicas das CEOs para você parar de comprar livros e ler os que já tem (spoiler: nós também falhamos nisso).</p>
-              <Link to="/diary/2" className="btn-text">Ler entrada ➔</Link>
             </div>
             
             <div className="post-scrap">
