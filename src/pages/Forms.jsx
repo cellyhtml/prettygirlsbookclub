@@ -63,7 +63,7 @@ const Forms = () => {
             <div className="tape pink"></div>
             <h3 className="scrap-title">Quiz do Mês</h3>
             <p>
-              Terminou a leitura de <strong>"Quem é você, Alasca?"</strong>? 
+              Terminou a leitura de <strong>"Clube do Livro dos Homens"</strong>? 
               Responda ao nosso quiz oficial e garanta seus pontos no ranking das leitoras do mês!
             </p>
             

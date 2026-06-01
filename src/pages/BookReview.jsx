@@ -13,18 +13,18 @@ const BookReview = () => {
           <div className="review-visuals">
             <div className="polaroid review-polaroid">
               <div className="tape"></div>
-              <img src="/book-cover.jpg" alt="Quem é você, Alasca?" className="polaroid-img" />
-              <div className="polaroid-caption handwriting">Nossa leitura de Maio</div>
+              <img src="/bromance-cover.png" alt="Clube do Livro dos Homens" className="polaroid-img" />
+              <div className="polaroid-caption handwriting">Nossa leitura de Junho</div>
             </div>
             
             <div className="review-meta-note paper-note">
               <div className="pin"></div>
               <h4>Ficha Técnica</h4>
               <ul>
-                <li><strong>Autor:</strong> John Green</li>
-                <li><strong>Gênero:</strong> Jovem Adulto / Drama</li>
-                <li><strong>Páginas:</strong> ~256</li>
-                <li><strong>Mês:</strong> Maio 2026</li>
+                <li><strong>Autor:</strong> Lyssa Kay Adams</li>
+                <li><strong>Gênero:</strong> Romance / Comédia Romântica</li>
+                <li><strong>Páginas:</strong> ~352</li>
+                <li><strong>Mês:</strong> Junho 2026</li>
               </ul>
               <div className="sticker-star">⭐</div>
             </div>
@@ -34,7 +34,7 @@ const BookReview = () => {
           <div className="review-content-main">
             <header className="review-header">
               <p className="handwriting annotation">Livro do Mês</p>
-              <h1 className="editorial-title">Quem é você, Alasca?</h1>
+              <h1 className="editorial-title" style={{ fontSize: '3rem', lineHeight: '1.1' }}>Clube do Livro dos Homens</h1>
             </header>
 
             <div className="review-text-block paper-note">
@@ -42,22 +42,22 @@ const BookReview = () => {
               <div className="review-body">
                 <h3>O que esperar?</h3>
                 <p>
-                  Miles Halter é um adolescente fascinado pelas últimas palavras de grandes personalidades. Cansado de sua vida sem graça na Flórida, ele decide buscar o seu <strong>"Grande Talvez"</strong> e se muda para o internato de Culver Creek, no Alabama.
+                  Gavin Harris, um astro do beisebol profissional, está no fundo do poço. Seu casamento com Thea está desmoronando, e ele não tem a menor ideia de como reconquistar o coração de sua esposa. Em seu momento de maior desespero, seus companheiros de equipe o recrutam para uma sociedade secreta muito especial: o <strong>Clube do Livro dos Homens</strong>.
                 </p>
                 <p>
-                  Lá, ele conhece o Coronel, o Takumi e a enigmática e magnética <strong>Alasca Young</strong>. Alasca é tudo o que Miles não é: impulsiva, brilhante e autodestrutiva. Entre trotes escolares, amizades profundas e o amadurecimento, Miles descobre que a vida é muito mais complexa e dolorosa do que ele imaginava.
+                  A grande surpresa? A arma secreta desse grupo de atletas marmanjos para salvar relacionamentos é a leitura atenta de <strong>romances de época picantes</strong>! Sob a tutela de um clássico chamado <em>"Cortejando a Condessa"</em>, Gavin terá que engolir o orgulho, aprender a expressar seus sentimentos de verdade e mostrar para Thea que está pronto para ser o marido que ela merece.
                 </p>
                 <p>
-                  John Green entrega uma história visceral sobre o primeiro amor, o luto e a busca por sentido em meio ao labirinto de sofrimento. É um livro para ler com o coração na mão e lencinhos do lado.
+                  Lyssa Kay Adams entrega uma comédia romântica extremamente divertida, ágil e inteligente sobre vulnerabilidade, comunicação nos casamentos e as falsas expectativas criadas pela masculinidade tradicional. É uma leitura leve e deliciosamente engraçada!
                 </p>
 
                 <div className="editorial-quote">
-                  "Vou em busca de um Grande Talvez."
+                  "A primeira regra do clube do livro é: você não fala sobre o clube do livro."
                 </div>
 
                 <h3>Por que ler conosco?</h3>
                 <p>
-                  Este livro é um marco na literatura YA e gera discussões profundas sobre destino, perdoar a si mesmo e o impacto que deixamos na vida uns dos outros. No Pretty Girls, vamos explorar cada teoria e cada emoção que Culver Creek tem a oferecer.
+                  Além de darmos excelentes risadas com as reuniões e os comentários hilários de atletas musculosos interpretando romances de época de forma hiper-analítica, este livro nos trará reflexões maravilhosas. No Pretty Girls, debateremos sobre comunicação, as famosas linguagens do amor, o valor da terapia de casal e como construir relacionamentos genuinamente saudáveis. É perfeito para começar Junho com o coração aquecido e boas risadas!
                 </p>
               </div>
               

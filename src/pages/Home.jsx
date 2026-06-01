@@ -57,20 +57,20 @@ const Home = () => {
           <div className="bom-editorial-layout">
             <div className="polaroid book-polaroid">
               <div className="tape"></div>
-              <img src="/book-cover.jpg" alt="Quem é você, Alasca?" className="polaroid-img book-img-polaroid" />
-              <div className="polaroid-caption">Alasca.</div>
+              <img src="/bromance-cover.png" alt="Clube do Livro dos Homens" className="polaroid-img book-img-polaroid" />
+              <div className="polaroid-caption">Bromance.</div>
             </div>
             
             <div className="bom-details-note">
               <div className="paper-note">
                 <div className="pin"></div>
-                <h3>Quem é você, Alasca?</h3>
-                <p className="author-name">por John Green</p>
+                <h3>Clube do Livro dos Homens</h3>
+                <p className="author-name">por Lyssa Kay Adams</p>
                 <div className="note-divider"></div>
                 <p className="description">
-                  Neste mês, estamos lendo este emocionante romance sobre juventude, perdas e a busca pelo "Grande Talvez". Preparem-se para muitas emoções, luto e teorias no nosso encontro final!
+                  Neste mês de Junho, vamos mergulhar na história divertida e apaixonante de Gavin e seu clube secreto de atletas profissionais que leem romances para salvar seus casamentos. Risadas e debates maravilhosos garantidos!
                 </p>
-                <Link to="/book-review" className="read-more-link" aria-label="Ler resenha completa de Quem é você, Alasca?">
+                <Link to="/book-review" className="read-more-link" aria-label="Ler resenha completa de Clube do Livro dos Homens">
                   Ler a resenha completa <ArrowRight size={16} />
                 </Link>
               </div>
