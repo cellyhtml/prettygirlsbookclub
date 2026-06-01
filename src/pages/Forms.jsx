@@ -36,7 +36,7 @@ const Forms = () => {
               <div className="letter-action">
                 <p className="handwriting" style={{fontSize: '1.8rem', marginBottom: '0.5rem', transform: 'rotate(-2deg)'}}>Entre na lista de espera:</p>
                 <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfQZku9vLfgFIh0J9BJvQFy5_p0cX5hUfRLT4mfR47FMKgp1Q/viewform?usp=dialog" 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeRFAlSDEbH-r4mNtS68ZSHkPkVh_6P6ajX8ojrTIdk7XTdeA/viewform" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-editorial"
