@@ -78,13 +78,6 @@ Confira o registro especial desse dia de conexão e muitas gargalhadas.`,
 
 Para que ninguém se perca e todas consigam acompanhar a leitura juntas, preparamos um cronograma de leitura e calendário exclusivo de Junho!
 
-Confiram o calendário completo e a legenda abaixo para se organizarem:
-- 📖 Dia 01/06: Início da leitura! Hora de abrir a primeira página e conhecer o clube.
-- 🎀 Dia 13/06: Primeiras impressões! Vamos compartilhar o que estamos achando até aqui (sem spoilers!).
-- ❤️ Dias 24 a 27/06: Envio das sugestões de livros para o próximo mês de Julho.
-- 🎓 Dia 30/06: Final da leitura e envio do nosso quiz oficial de avaliação!
-- 💬 Dia 04/07: Nosso super aguardado encontro online de discussão oficial com quiz, risadas e fechamento!
-
 Salvem as imagens com a legenda do calendário para não perder nenhuma data importante. Mal podemos esperar para iniciar mais essa jornada literária fantástica com todas vocês! Que Junho seja um mês de muitas páginas viradas e corações quentinhos. 💖✨`,
     images: ['/calendario-junho-1.png', '/calendario-junho-2.png', '/calendario-junho-3.png']
   }
