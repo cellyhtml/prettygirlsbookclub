@@ -58,7 +58,7 @@ const Home = () => {
             <div className="polaroid book-polaroid">
               <div className="tape"></div>
               <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img book-img-polaroid" />
-              <div className="polaroid-caption">Bromance.</div>
+              <div className="polaroid-caption">Romance.</div>
             </div>
             
             <div className="bom-details-note">

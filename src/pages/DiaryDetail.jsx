@@ -65,7 +65,7 @@ Confiram o calendário completo e a legenda abaixo para se organizarem. Mal pode
 
 Passamos horas conversando sobre as dores e segredos de Culver Creek, compartilhando o que achamos das atitudes do Gordo, do Coronel e da magnética Alasca, e refletindo sobre o nosso próprio "Grande Talvez". Foi uma jornada intensa e emocionante para todas!
 
-Como de costume, fechamos o encontro online com o nosso quiz oficial de leitura, repleto de risadas, surtos coletivos e diversão. Agradecemos demais pela energia única de cada uma das girls. Vocês tornam nossas discussões online momentos inesquecíveis! 💖✨
+Como de costume, fechamos o encontro online com o nosso quiz oficial de leitura, repleto de risadas, surtos coletivos e diversão. E a nossa grande vencedora do mês, que provou saber absolutamente tudo sobre a história e levou a coroa de campeã do quiz de Alasca, foi a Kaylane! Parabéns, girl! 👑💖 Agradecemos demais pela energia única de todas as girls. Vocês tornam nossas discussões online momentos inesquecíveis! ✨
 
 Confira o registro especial desse dia de conexão e muitas gargalhadas.`,
     images: ['/encontro-maio.jpg']
