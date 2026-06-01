@@ -7,7 +7,7 @@ const BookReview = () => {
     <div className="book-review-page editorial-page">
       <div className="container">
         <Link to="/" className="back-link"><ArrowLeft size={18} /> Voltar para Home</Link>
-        
+
         <div className="review-layout">
           {/* Left Column: Visuals */}
           <div className="review-visuals">
@@ -16,14 +16,14 @@ const BookReview = () => {
               <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img" />
               <div className="polaroid-caption handwriting">Nossa leitura de Junho</div>
             </div>
-            
+
             <div className="review-meta-note paper-note">
               <div className="pin"></div>
               <h4>Ficha Técnica</h4>
               <ul>
                 <li><strong>Autor:</strong> Lyssa Kay Adams</li>
                 <li><strong>Gênero:</strong> Romance / Comédia Romântica</li>
-                <li><strong>Páginas:</strong> ~352</li>
+                <li><strong>Páginas:</strong> 352</li>
                 <li><strong>Mês:</strong> Junho 2026</li>
               </ul>
               <div className="sticker-star">⭐</div>
@@ -60,7 +60,7 @@ const BookReview = () => {
                   Além de darmos excelentes risadas com as reuniões e os comentários hilários de atletas musculosos interpretando romances de época de forma hiper-analítica, este livro nos trará reflexões maravilhosas. No Pretty Girls, debateremos sobre comunicação, as famosas linguagens do amor, o valor da terapia de casal e como construir relacionamentos genuinamente saudáveis. É perfeito para começar Junho com o coração aquecido e boas risadas!
                 </p>
               </div>
-              
+
               <div className="review-footer">
                 <div className="handwriting sign-off">Boa leitura, girls! <Heart size={16} fill="var(--cherry-red)" stroke="var(--cherry-red)" /></div>
               </div>
