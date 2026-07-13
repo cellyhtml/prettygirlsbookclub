@@ -57,20 +57,20 @@ const Home = () => {
           <div className="bom-editorial-layout">
             <div className="polaroid book-polaroid">
               <div className="tape"></div>
-              <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img book-img-polaroid" />
-              <div className="polaroid-caption">Romance.</div>
+              <img src="/nos-ja-moramos-aqui.jpg" alt="Nós Já Moramos Aqui" className="polaroid-img book-img-polaroid" />
+              <div className="polaroid-caption">Thriller / Terror.</div>
             </div>
             
             <div className="bom-details-note">
               <div className="paper-note">
                 <div className="pin"></div>
-                <h3>Clube do Livro dos Homens</h3>
-                <p className="author-name">por Lyssa Kay Adams</p>
+                <h3>Nós Já Moramos Aqui</h3>
+                <p className="author-name">por Marcus Kliewer</p>
                 <div className="note-divider"></div>
                 <p className="description">
-                  Neste mês de Junho, vamos mergulhar na história divertida e apaixonante de Gavin e seu clube secreto de atletas profissionais que leem romances para salvar seus casamentos. Risadas e debates maravilhosos garantidos!
+                  Neste mês de Julho, preparem-se para arrepios e teorias bizarras! Acompanhamos Eve e Charlie em uma casa antiga e isolada. Quando uma família estranha bate à porta alegando já ter morado ali, uma simples visita rápida se transforma em um pesadelo sufocante.
                 </p>
-                <Link to="/book-review" className="read-more-link" aria-label="Ler resenha completa de Clube do Livro dos Homens">
+                <Link to="/book-review" className="read-more-link" aria-label="Ler resenha completa de Nós Já Moramos Aqui">
                   Ler a resenha completa <ArrowRight size={16} />
                 </Link>
               </div>

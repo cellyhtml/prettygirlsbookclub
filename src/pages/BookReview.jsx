@@ -13,18 +13,18 @@ const BookReview = () => {
           <div className="review-visuals">
             <div className="polaroid review-polaroid">
               <div className="tape"></div>
-              <img src="/bromance-cover.jpg" alt="Clube do Livro dos Homens" className="polaroid-img" />
-              <div className="polaroid-caption handwriting">Nossa leitura de Junho</div>
+              <img src="/nos-ja-moramos-aqui.jpg" alt="Nós Já Moramos Aqui" className="polaroid-img" />
+              <div className="polaroid-caption handwriting">Nossa leitura de Julho</div>
             </div>
 
             <div className="review-meta-note paper-note">
               <div className="pin"></div>
               <h4>Ficha Técnica</h4>
               <ul>
-                <li><strong>Autor:</strong> Lyssa Kay Adams</li>
-                <li><strong>Gênero:</strong> Romance / Comédia Romântica</li>
-                <li><strong>Páginas:</strong> 352</li>
-                <li><strong>Mês:</strong> Junho 2026</li>
+                <li><strong>Autor:</strong> Marcus Kliewer</li>
+                <li><strong>Gênero:</strong> Thriller / Terror / Suspense</li>
+                <li><strong>Páginas:</strong> 320</li>
+                <li><strong>Mês:</strong> Julho 2026</li>
               </ul>
               <div className="sticker-star">⭐</div>
             </div>
@@ -34,7 +34,7 @@ const BookReview = () => {
           <div className="review-content-main">
             <header className="review-header">
               <p className="handwriting annotation">Livro do Mês</p>
-              <h1 className="editorial-title" style={{ fontSize: '3rem', lineHeight: '1.1' }}>Clube do Livro dos Homens</h1>
+              <h1 className="editorial-title" style={{ fontSize: '3rem', lineHeight: '1.1' }}>Nós Já Moramos Aqui</h1>
             </header>
 
             <div className="review-text-block paper-note">
@@ -42,27 +42,27 @@ const BookReview = () => {
               <div className="review-body">
                 <h3>O que esperar?</h3>
                 <p>
-                  Gavin Harris, um astro do beisebol profissional, está no fundo do poço. Seu casamento com Thea está desmoronando, e ele não tem a menor ideia de como reconquistar o coração de sua esposa. Em seu momento de maior desespero, seus companheiros de equipe o recrutam para uma sociedade secreta muito especial: o <strong>Clube do Livro dos Homens</strong>.
+                  Charlie e Eve ganham a vida comprando, reformando e revendendo casas antigas. Quando adquirem uma propriedade isolada e cheia de história no Oregon, elas acreditam ter encontrado o projeto perfeito para suas carreiras. No entanto, a rotina pacífica de reforma é interrompida em uma tarde fria e chuvosa.
                 </p>
                 <p>
-                  A grande surpresa? A arma secreta desse grupo de atletas marmanjos para salvar relacionamentos é a leitura atenta de <strong>romances de época picantes</strong>! Sob a tutela de um clássico chamado <em>"Cortejando a Condessa"</em>, Gavin terá que engolir o orgulho, aprender a expressar seus sentimentos de verdade e mostrar para Thea que está pronto para ser o marido que ela merece.
+                  Uma família misteriosa bate à porta. O pai, com um sorriso educado mas insistente, diz que morou ali na infância e pede para mostrar a casa rapidamente para seus filhos. Incapaz de negar um pedido que parece tão inofensivo, Eve os deixa entrar. Esse pequeno ato de gentileza dá início a uma espiral terrível de acontecimentos perturbadores.
                 </p>
                 <p>
-                  Lyssa Kay Adams entrega uma comédia romântica extremamente divertida, ágil e inteligente sobre vulnerabilidade, comunicação nos casamentos e as falsas expectativas criadas pela masculinidade tradicional. É uma leitura leve e deliciosamente engraçada!
+                  À medida que uma forte tempestade isola a casa do resto do mundo, os visitantes parecem cada vez mais relutantes em ir embora. A atmosfera fica claustrofóbica, o comportamento da família se torna cada vez mais bizarro, e Eve passa a questionar o que é real e o que é paranoia no porão escuro do imóvel.
                 </p>
 
                 <div className="editorial-quote">
-                  "A primeira regra do clube do livro é: você não fala sobre o clube do livro."
+                  "Um thriller psicológico tenso que nasceu como um fenômeno viral no Reddit e logo teve seus direitos de adaptação comprados pela Netflix!"
                 </div>
 
                 <h3>Por que ler conosco?</h3>
                 <p>
-                  Além de darmos excelentes risadas com as reuniões e os comentários hilários de atletas musculosos interpretando romances de época de forma hiper-analítica, este livro nos trará reflexões maravilhosas. No Pretty Girls, debateremos sobre comunicação, as famosas linguagens do amor, o valor da terapia de casal e como construir relacionamentos genuinamente saudáveis. É perfeito para começar Junho com o coração aquecido e boas risadas!
+                  No Pretty Girls, adoramos uma boa dose de mistério e romance, mas este mês vamos nos aventurar pelos caminhos sombrios do horror psicológico! <em>"Nós Já Moramos Aqui"</em> é perfeito para gerar teorias malucas nos nossos chats, discussões acaloradas sobre sobrevivência, o perigo de tentar ser educada com estranhos e como a nossa mente pode nos pregar peças quando o medo toma conta. Preparem as cobertas e a luz acesa!
                 </p>
               </div>
 
               <div className="review-footer">
-                <div className="handwriting sign-off">Boa leitura, girls! <Heart size={16} fill="var(--cherry-red)" stroke="var(--cherry-red)" /></div>
+                <div className="handwriting sign-off">Boa leitura e bons sustos, girls! <Heart size={16} fill="var(--cherry-red)" stroke="var(--cherry-red)" /></div>
               </div>
             </div>
           </div>
