@@ -91,7 +91,7 @@ Com direito a toalhas xadrez estendidas na grama, montamos um banquete junino de
 
 A tarde foi recheada de diversão. Tivemos dinâmicas super legais para debatermos nossa leitura do mês, "Clube do Livro dos Homens", com cada uma compartilhando seus momentos favoritos (e as partes que nos fizeram surtar de rir). Para deixar tudo ainda mais animado, organizamos um Bingo literário especial! Foi uma disputa acirrada e cheia de torcida para ver quem completava a cartela primeiro.
 
-Além de comermos muito e nos divertirmos com as brincabeiras, foi um momento único de conexão presencial, onde reforçamos o quanto nosso clube é um espaço de amizade e cumplicidade. Agradecemos a presença de todas as girls que tornaram esse arraiá literário tão inesquecível!
+Além de comermos muito e nos divertirmos com as brincadeiras, foi um momento único de conexão presencial, onde reforçamos o quanto nosso clube é um espaço de amizade e cumplicidade. Agradecemos a presença de todas as girls que tornaram esse arraiá literário tão inesquecível!
 
 Confira abaixo alguns dos melhores cliques desse dia lindo e ensolarado.`,
     images: ['/encontro-junho-1.jpg', '/encontro-junho-2.jpg']

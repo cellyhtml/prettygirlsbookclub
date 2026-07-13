@@ -58,20 +58,6 @@ const Forms = () => {
             </div>
           </div>
 
-          {/* Quiz Section */}
-          <div className="quiz-scrap polaroid">
-            <div className="tape pink"></div>
-            <h3 className="scrap-title">Quiz do Mês</h3>
-            <p>
-              Terminou a leitura de <strong>"Clube do Livro dos Homens"</strong>? 
-              Responda ao nosso quiz oficial e garanta seus pontos no ranking das leitoras do mês!
-            </p>
-            
-            <div className="quiz-placeholder">
-              <span className="handwriting">Formulário das Membras</span>
-            </div>
-          </div>
-
         </div>
 
       </div>
