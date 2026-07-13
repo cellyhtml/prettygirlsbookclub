@@ -108,14 +108,6 @@ const Home = () => {
               <p>Surtos literários e discussões online sobre Culver Creek. Confira os sorrisos e o fechamento de "Alasca"!</p>
               <Link to="/diary/5" className="btn-text" aria-label="Ler resumo do encontro de maio">Ler entrada ➔</Link>
             </div>
-
-            {/* Resumo: Encontro de Abril */}
-            <div className="post-scrap">
-              <div className="scrap-date handwriting">02 Mai, 2026</div>
-              <h3 className="scrap-title">Resumo: Encontro de Abril</h3>
-              <p>Café, risadas e o anúncio da Polyane como vencedora do quiz de "O Acordo". Confira os melhores momentos!</p>
-              <Link to="/diary/3" className="btn-text" aria-label="Ler resumo do encontro de abril">Ler entrada ➔</Link>
-            </div>
           </div>
         </div>
       </section>
