@@ -80,6 +80,21 @@ Para que ninguém se perca e todas consigam acompanhar a leitura juntas, prepara
 
 Salvem as imagens com a legenda do calendário para não perder nenhuma data importante. Mal podemos esperar para iniciar mais essa jornada literária fantástica com todas vocês! Que Junho seja um mês de muitas páginas viradas e corações quentinhos. 💖✨`,
     images: ['/calendario-junho-1.png', '/calendario-junho-2.png', '/calendario-junho-3.png']
+  },
+  '7': {
+    title: 'Resumo: Encontro de Junho',
+    date: '28 Jun, 2026',
+    author: 'Pretty Girls',
+    content: `O nosso encontro de junho foi simplesmente mágico e cheio de sabor! Desta vez, decidimos trocar as telas e as cafeterias por uma tarde ensolarada no parque, realizando o nosso primeiro Piquenique Junino oficial do Pretty Girls Book Club! 🌽🔥
+
+Com direito a toalhas xadrez estendidas na grama, montamos um banquete junino de respeito: teve bolo de fubá quentinho, bolo de chocolate, pipoca, paçoquinha, doces típicos e, claro, muitas risadas. As girls capricharam nos quitutes e nos looks juninos!
+
+A tarde foi recheada de diversão. Tivemos dinâmicas super legais para debatermos nossa leitura do mês, "Clube do Livro dos Homens", com cada uma compartilhando seus momentos favoritos (e as partes que nos fizeram surtar de rir). Para deixar tudo ainda mais animado, organizamos um Bingo literário especial! Foi uma disputa acirrada e cheia de torcida para ver quem completava a cartela primeiro.
+
+Além de comermos muito e nos divertirmos com as brincabeiras, foi um momento único de conexão presencial, onde reforçamos o quanto nosso clube é um espaço de amizade e cumplicidade. Agradecemos a presença de todas as girls que tornaram esse arraiá literário tão inesquecível!
+
+Confira abaixo alguns dos melhores cliques desse dia lindo e ensolarado.`,
+    images: ['/encontro-junho-1.jpg', '/encontro-junho-2.jpg']
   }
 };
 

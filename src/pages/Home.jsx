@@ -85,7 +85,15 @@ const Home = () => {
           <h2 className="editorial-heading-center">Diário do Clube</h2>
           
           <div className="posts-grid-editorial">
-            {/* NOVO: Planejamento de Junho */}
+            {/* NOVO: Resumo Encontro de Junho */}
+            <div className="post-scrap pink-scrap">
+              <div className="scrap-date handwriting">28 Jun, 2026</div>
+              <h3 className="scrap-title">Resumo: Encontro de Junho</h3>
+              <p>Pipoca, bolo de fubá e bingo literário! Confira os melhores momentos do nosso piquenique junino no parque.</p>
+              <Link to="/diary/7" className="btn-text" aria-label="Ler resumo do encontro de junho">Ler entrada ➔</Link>
+            </div>
+
+            {/* Planejamento de Junho */}
             <div className="post-scrap">
               <div className="scrap-date handwriting">01 Jun, 2026</div>
               <h3 className="scrap-title">Planejamento: O que vem por aí em Junho</h3>
@@ -93,18 +101,12 @@ const Home = () => {
               <Link to="/diary/6" className="btn-text">Ler entrada ➔</Link>
             </div>
             
+            {/* Resumo: Encontro de Maio */}
             <div className="post-scrap pink-scrap">
               <div className="scrap-date handwriting">30 Mai, 2026</div>
               <h3 className="scrap-title">Resumo: Encontro de Maio</h3>
               <p>Surtos literários e discussões online sobre Culver Creek. Confira os sorrisos e o fechamento de "Alasca"!</p>
               <Link to="/diary/5" className="btn-text" aria-label="Ler resumo do encontro de maio">Ler entrada ➔</Link>
-            </div>
-            
-            <div className="post-scrap">
-              <div className="scrap-date handwriting">02 Mai, 2026</div>
-              <h3 className="scrap-title">Resumo: Encontro de Abril</h3>
-              <p>Café, risadas e o anúncio da Polyane como vencedora do quiz de "O Acordo". Confira os melhores momentos!</p>
-              <Link to="/diary/3" className="btn-text" aria-label="Ler resumo do encontro de abril">Ler entrada ➔</Link>
             </div>
           </div>
         </div>
